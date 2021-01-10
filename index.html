@@ -50,6 +50,17 @@
         INFO 
         WHITE
 
+        Ejemplo de distribucion filas y columnas 
+
+         <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm col-md-6 col-lg-8  col-xl-4 borde1"></div>
+            <div class="col-12 col-sm col-md-6 col-lg-4  col-xl-4 borde2"></div>
+            <div class="col-12 col-sm col-md-6 col-lg-12 col-xl-4 borde3"></div>
+        </div>
+
+    </div>
+
     -->
 
 <!---ALINEAR DE MANERA HORIZONTAL
@@ -102,21 +113,75 @@
             <code> crea un bloque de codigo visible dentro de la pagina
              <kbd>Ctrl+C</kbd> para dar a conocer los atajos del teclado normalmente    
             -->
-            <!--
+<!--
                 w = whidth = ancho
                 h =  largo
                 
             -->
 
+<!--MANEJO DE TABLAS CON BOOTSTRAP
+                td*cualquier numero genera ese numero de td
+             <table class="table table-striped"> genera unas lineas en la tabla intercalando 
+             <table class="table table-bordered"> genera bordes 
+             <table class="table table-hover"> se va sombreando donde se pasa el raton
+             <table class="table table-dark"> modo oscuro
+             <table class="table table-dark table-striped">
+             Las clases igual se pueden usar con las columnas,filas y celdas
+             para crear un tabla responsiva 
+             table class="table table-responsive-sm">
+
+              <table class="table table-responsive-sm">
+                    <tr>
+                        <td class="table-secondary">LUNES</td>
+                        <td>MARTES</td>
+                        <td>MIERCOLES</td>
+                        <td>JUEVES</td>
+                        <td>VIERNES</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td>10</td>
+                        <td>20</td>
+                        <td>30</td>
+                        <td>40</td>
+                        <td><button class="btn-dark">b</button></td>
+            -->
+
+<!--MANEJO DE IMAGENES
+                imagen responsiva y con esquinas redondeadas
+                <img src="img/fondo.jpg" class="img-fluid rounded" >
+                AGREGAR UN MARCO
+                <img src="img/fondo.jpg" class="w-50 img-thumbnail" >
+                
+            
+            -->
+<!--JUMBOTRON
+        Sombrea y resalta un contenido 
+
+        <p class="jumbotron">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Beatae ipsum deserunt ratione autem laboriosam temporibus unde, blanditiis alias
+                    voluptatem, doloremque facilis ut cum corrupti quae itaque eveniet libero incidunt.
+                    Perspiciatis.</p>
+-->
+<!--Alert
+     <p class="alert alert-info text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Beatae ipsum deserunt ratione autem laboriosam temporibus unde, blanditiis alias
+                    voluptatem, doloremque facilis ut cum corrupti quae itaque eveniet libero incidunt.
+                    Perspiciatis.
+                <a href="#" class="alert-link">Esto es un link</a>
+                </p>
+-->
+<!--Button
+
+-->
+
 <body>
     <!-- ********************** EMPIEZA EL CONTENIDO *********************** -->
     <div class="container">
-        <div class="row borde1 bg-dark h-100">
-            <div>
-                <h1> HOLA A TODOS</h1>
-               <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   Asperiores numquam minus, delectus velit nostrum nisi nihil eos quas quam eveniet qui accusamus odio debitis quaerat
-                    quisquam corrupti rem distinctio accusantium!</p>
+        <div class="row h-100">
+            <div class="col-12">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Felicidades</strong> la operacion concluyo satisfactoriamente
+
             </div>
         </div>
 
