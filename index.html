@@ -435,8 +435,33 @@
                     </li>
                 </ul>
 
-    FORMA 2
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+   
+   
+
+-->
+
+<!--BARRA DE NAVEGACIÓN
+     - navbar
+ - navbar-nav
+ - navbar-item
+ - navbar-link
+ - nav-expand-sm
+ - navbar-brand
+ - colapsable
+ - nav-expand-sm
+ - navbar-collapse
+ - navbar-toggler
+ - navbar-toggler-icon
+ - dropdown
+ - nav-item
+ - nav-link
+ - dropdown-toggle
+ - dropdown-menu
+ - dropdown-item
+ - fixed-top 
+ - fixed-bottom 
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
                     <a href="" class="navbar brand"><img src="img/admin.jpeg" style="width: 80px;"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#uno">
                         <span class="navbar-toggle-icon"></span>
@@ -472,29 +497,6 @@
 
 -->
 
-<!--BARRA DE NAVEGACIÓN
-     - navbar
- - navbar-nav
- - navbar-item
- - navbar-link
- - nav-expand-sm
- - navbar-brand
- - colapsable
- - nav-expand-sm
- - navbar-collapse
- - navbar-toggler
- - navbar-toggler-icon
- - dropdown
- - nav-item
- - nav-link
- - dropdown-toggle
- - dropdown-menu
- - dropdown-item
- - fixed-top 
- - fixed-bottom 
-
--->
-
 <!--FORMULARIOS
      - form-control
  - form-check-label
@@ -508,6 +510,45 @@
  - form-check-label
  - radio-inline
  - select
+
+  <h1>FORMULARIO DE CONTACTO</h1>
+                <form action="proceso.php" method="POST">
+                    <label for="nombre">Nombre</label> <input type="text" id="nombre" class="form-control">
+                    <label for="apellido">Apellido</label> <input type="text" id="apellido" class="form-control">
+                    <label for="email">Email</label> <input type="email" id="email" class="form-control">
+                    <label for="tiempo">Fecha</label> <input type="datetime" id="tiempo" class="form-control">
+                    <label for="color">Color</label> <input type="color" id="color" class="form-control">
+                    <label for="contrasena">Contraseña</label> <input type="password" id="contrasena" class="form-control">
+                    <label for="recordar" class="form-check-label"> <input type="checkbox" class="form-check-input"> Recordarme</label> <br>
+                    
+                    <div class="form-check">
+                        <label for="dos" class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">
+                            opcion 1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label for="dos" class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">
+                            opcion 2
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label for="dos" class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">
+                            opcion 3
+                        </label>
+                    </div>
+                    <textarea name="descripcion" id="uno" cols="33" rows="10"></textarea><br>
+                   
+                    <select name="dias" >
+                        <option value="lunes">Lunes</option>
+                        <option value="martes">Martes</option>
+                    </select>
+                    <br>
+
+                    <input type="submit" value="ENVIAR" class="btn btn-primary">
+                </form>
 
 
 -->
@@ -547,6 +588,7 @@
     <div class="container">
         <div class="row h-100">
             <div class="col-12">
+               
                 
                 
             </div>

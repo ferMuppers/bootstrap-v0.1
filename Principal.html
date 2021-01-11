@@ -8,43 +8,95 @@
     <meta http-equiv="x-ua-compatible" content="ie-edge">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-    <style type="text/css">
-        .borde { 
-            background-color: gray;
-            height: 200px;
-        }
-
-        .borde1 {
-            background-color: aquamarine;
-            height: 50px;
-            text-align: center;
-        }
-
-        .borde2 {
-            background-color: olivedrab;
-            text-align: center;
-            height: 50px;
-        }
-
-        .borde3 {
-            background-color: orangered;
-            text-align: center;
-            height: 50px;
-        }
-    </style>
+   
 </head>
 
 
 <body>
     <!-- ********************** EMPIEZA EL CONTENIDO *********************** -->
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm col-md-6 col-lg-8  col-xl-4 borde1"></div>
-            <div class="col-12 col-sm col-md-6 col-lg-4  col-xl-4 borde2"></div>
-            <div class="col-12 col-sm col-md-6 col-lg-12 col-xl-4 borde3"></div>
+        <div class="row ">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra">
+                        <span class="navbar-toggle-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="barra">
+                        <ul class="navbar-nav mx-auto ">
+
+                            <li class="nav-item"><a href="Principal.html" class="nav-link ">Vender</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Productos</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Ventas</a></li>
+
+                        </ul>
+
+
+                </nav>
+            </div>
+
         </div>
 
+
+
     </div>
+
+
+    
+        <div class="col">
+            <p class="display-4 text-justify mt-5 ml-3 pt-3 ">Productos</p>
+            <button class="btn btn-outline-success ml-3 mb-3">Agragar</button>
+        </div>
+    
+    <div class="col">
+        <table class="table table-responsive-sm table-dark table-striped">
+            <tr>
+                <td>Nombre</td>
+                <td>Codigo</td>
+                <td>Precio</td>
+                <td>Existencia</td>
+                <td>Editar</td>
+                <td>Eliminar</td>
+            </tr>
+            <tr>
+                <td>BARRITAS FRESA</td>
+                <td>1</td>
+                <td>50.0</td>
+                <td>41.0</td>
+                <td><button class="btn btn-warning">Editar <img src="img/edit.png" width="23" height="23"></span></button> </td>
+                <td><button class="btn btn-danger">Eliminar <img src="img/trash.png" width="20" height="20"></button></td>
+
+            </tr>
+            <tr>
+                <td>BARRITAS MORAS</td>
+                <td>2</td>
+                <td>30.0</td>
+                <td>29.0</td>
+                <td><button class="btn btn-warning">Editar <img src="img/edit.png" width="23" height="23"></span></button> </td>
+                <td><button class="btn btn-danger">Eliminar <img src="img/trash.png" width="20" height="20"></button></td>
+            </tr>
+            <tr>
+                <td>CHECHITOS DONITAS CHILE</td>
+                <td>3</td>
+                <td>20.0</td>
+                <td>99.0</td>
+                <td><button class="btn btn-warning">Editar <img src="img/edit.png" width="23" height="23"></span></button> </td>
+                <td><button class="btn btn-danger">Eliminar <img src="img/trash.png" width="20" height="20"></button></td>
+            </tr>
+
+            <tr>
+                <td>FANTA NARANJA 3LT</td>
+                <td>4</td>
+                <td>7.0</td>
+                <td>99.0</td>
+                <td><button class="btn btn-warning">Editar <img src="img/edit.png" width="23" height="23"></span></button> </td>
+                <td><button class="btn btn-danger">Eliminar <img src="img/trash.png" width="20" height="20"></button></td>
+            </tr>
+
+        </table>
+
+    </div>
+    </div>
+
 
 
 
