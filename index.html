@@ -383,6 +383,26 @@
                     <div id="demo3"class="collapse">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi minus vero aut? Architecto nostrum doloremque, doloribus cumque sapiente illum deserunt quasi voluptate nesciunt minus a blanditiis voluptas aliquam ducimus eveniet.     
                     </div>
+
+
+
+                <div id="acordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#uno" class="card-link" data-toggle="collapse" data-parent="#acordion">primero</a>
+
+                        </div>
+                        <div id=uno class="collapse show">
+                            <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sed
+                                consectetur, laudantium quia reiciendis libero deserunt doloribus officiis nulla.
+                                Ducimus sint natus autem reiciendis ab a provident obcaecati officiis repellat.</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
 -->
 <!--MENÚS DE NAVEGACIÓN
 
@@ -398,6 +418,57 @@
  - nav-justified
  - dropdown
  - nav-pills
+
+    FORMA 1
+        <ul class="nav nav-justified">
+                    <li class="nav-item"><a href="#" class="nav-link ">link1</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">link2</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">link4</a>
+                        <div class="dropdown-menu">
+                         
+                            <a href="#" class="dropdown-item">Submenu1</a>
+                            <a href="#" class="dropdown-item">Submenu2</a>
+                            <a href="#" class="dropdown-item">Submenu3</a>
+                            
+                        </div>
+                    </li>
+                </ul>
+
+    FORMA 2
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                    <a href="" class="navbar brand"><img src="img/admin.jpeg" style="width: 80px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#uno">
+                        <span class="navbar-toggle-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="uno">
+
+
+                        <ul class="navbar-nav ">
+
+                            <li class="nav-item"><a href="#" class="nav-link ">link1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">link2</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                    id="navdrop">link4</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Sub item 1</a>
+                                    <a href="#" class="dropdown-item">Sub item 2</a>
+                                    <a href="#" class="dropdown-item">Sub item 3</a>
+                                </div>
+
+                            </li>
+
+                            <form action="miformulario.php" method="GET" class="form-inline">
+                                <input type="text" placeholder="buscar" class="form-control mr-sm-2">
+                                <button type="submit" class="btn-success">Buscar</button>
+
+                            </form>
+
+                        </ul>
+                    </div>
+                </nav>
 
 -->
 
@@ -476,22 +547,8 @@
     <div class="container">
         <div class="row h-100">
             <div class="col-12">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Beatae ipsum deserunt ratione autem laboriosam temporibus unde, blanditiis alias
-                    voluptatem, doloremque facilis ut cum corrupti quae itaque eveniet libero incidunt.
-                    Perspiciatis.</p>
-                    
-
                 
-
-
-
-
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Beatae ipsum deserunt ratione autem laboriosam temporibus unde, blanditiis alias
-                    voluptatem, doloremque facilis ut cum corrupti quae itaque eveniet libero incidunt.
-                    Perspiciatis.</p>
-
+                
             </div>
         </div>
 
